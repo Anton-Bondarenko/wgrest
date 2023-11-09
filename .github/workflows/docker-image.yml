@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag wgrest:$(date +%s)
     - name: Publish the Docker image
-      run: docker push ghcr.io/Anton-Bondarenko/wgrest:latest
+      run: docker push ghcr.io/anton-bondarenko/wgrest:latest
